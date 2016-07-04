@@ -47,14 +47,15 @@
      can change that, but don't touch the position or margin. */
   position: absolute;
   margin: 0px;
-  background: white;
+  background: #f3f3f4;
+  border: none;
 }
 
 .BufferWindow {
   overflow: scroll;   /* vertical scrollbar is mandatory */
   overflow-x: hidden; /* but horizontal scrollbar is forbidden */
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.4;
   padding: 6px 10px 6px 10px;
 }
@@ -63,10 +64,11 @@
 }
 
 .GridWindow {
-  background: #D0D0C0;
+  background: #343845;
+  color: #FFFFFF;
   overflow: hidden;
   font-family: monaco, andale mono, lucidatypewriter, courier, courier new, monospace; /* necessary! */
-  font-size: 12px;
+  font-size: 16px;
   padding: 6px 10px 6px 10px;
 }
 
@@ -87,8 +89,9 @@
      of a window when it needs paging. */
   font-weight: bold;
   position: absolute;
-  background: #603010;
-  color: #FFFFCC;
+/*  background: #2D5496; */
+  background: #2F4869;
+  color: #FFFFFF;
   opacity: 0.5;
   padding: 2px 6px;
   -webkit-border-radius: 4px;
@@ -109,12 +112,12 @@
 
 .BufferWindow .Input {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .GridWindow .Input {
   font-family: monaco, andale mono, lucidatypewriter, courier, courier new, monospace; /* necessary! */
-  font-size: 12px;
+  font-size: 16px;
 }
 
 /* The following are the standard Glk styles. */
@@ -135,7 +138,7 @@
 }
 
 .BufferWindow .Style_header {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .Style_subheader {
@@ -159,14 +162,20 @@
   color: #300000;
 }
 
+.WindowRock_225 {
+/*	background: #0D0C29; */
+	background: #15142B;
+	color: #FAFAFA;
+}
+
 .Style_user1 {
-  color: #0000FF;
-  font-weight: bold;
+	color: #0000FF;
+	font-weight: bold;
 }
 
 .Style_user2 {
-  color: #339933;
-  font-weight: bold;
+	color: #008000;
+	font-weight: bold;
 }
 
 /* End of GlkOte default stylesheet. */
